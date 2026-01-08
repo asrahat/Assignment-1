@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +6,14 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-style: normal;
 }
-
 /* Shared Styles */
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
 
 .btn{
     background-color: #218b4d;
@@ -21,9 +27,12 @@
 
 /* Main Styles */
 
+header{
+    padding-top: 16px;
+}
+
+/* navbar style */
 nav{
-    width: 1600px;
-    margin: 16px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,5 +50,48 @@ nav ul li a {
     font-size: 16px;
     font-weight: 500;
     color: #001931;
+}
 
+/* Banner Style */
+#banner{
+    margin-top: 16px;
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 120px;
+}
+.banner-container .early-btn{
+    max-width: max-content;
+    color: #30B868;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+}
+.banner-container .banner-title{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 80px;
+}
+.banner-container .banner-title span{
+    color: #30B868;
+}
+.banner-container p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+.banner-container .banner-btn-parent .banner-btn{
+   background-color: transparent;
+   border: 1px solid #ffffff;
+   margin-left: 10px;
 }
