@@ -269,6 +269,8 @@ footer .footer-content .social .links a{
     color: #ffffff;
 }
 footer .copyright{
+    border-top: 1px solid #627382;
+    padding-top: 20px;
     text-align: center;
     color: #ffffff;
 }
