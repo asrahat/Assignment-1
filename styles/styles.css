@@ -1,3 +1,4 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
@@ -196,7 +197,6 @@ nav ul li a {
     gap: 5px;
     align-items: center;
     font-size: 16px;
-    /* color: #001931; */
 }
 .knowledge .knowledge-info .knowledge-solution i{
     color: #30B868;
@@ -226,6 +226,11 @@ nav ul li a {
 .get-early-access p{
     font-size: 16px;
     color: #626262;
+}
+
+.get-early-access h3{
+    font-size: 16px;
+    color: #30B868;
 }
 
 .get-early-access .access-messages{
