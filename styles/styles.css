@@ -144,3 +144,48 @@ nav ul li a {
     font-size: 16px;
     color: #627382;
 }
+
+/* knowledge style*/
+.knowledge{
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.knowledge .knowledge-img{
+    margin-right: 60px;
+    max-width:600px;
+    max-width:600px;
+}
+.knowledge .knowledge-info{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.knowledge .knowledge-info h4{
+    font-size: 16px;
+    color: #30B868;
+}
+.knowledge .knowledge-info h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+}
+.knowledge .knowledge-info p{
+    font-size: 16px;
+    color: #626262;
+}
+.knowledge .knowledge-info .knowledge-solution{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 16px;
+    /* color: #001931; */
+}
+.knowledge .knowledge-info .knowledge-solution i{
+    color: #30B868;
+}
+.knowledge .knowledge-info .knowledge-solution p{
+     color: #001931;
+}
+
