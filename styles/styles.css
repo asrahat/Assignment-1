@@ -23,6 +23,11 @@
     padding: 12px 16px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    box-shadow: 2px 3px  10px #30B868;
 }
 
 /* Main Styles */
@@ -74,6 +79,7 @@ nav ul li a {
     font-size: 16px;
     border: none;
 }
+
 .banner-container .banner-title{
     text-align: center;
     font-size: 72px;
@@ -94,6 +100,16 @@ nav ul li a {
    background-color: transparent;
    border: 1px solid #ffffff;
    margin-left: 10px;
+}
+.banner-container .banner-btn-parent .banner-btn:hover{
+    background-color: #218b4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 /* notes style */
@@ -222,3 +238,33 @@ nav ul li a {
 .get-early-access .access-messages i{
     font-size: 10px;
 }
+
+
+/* footer stytle */
+
+footer{
+    background-color: #001931;
+    margin-top: 84px;
+    padding: 120px 120px 30px 120px;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+footer .footer-content .social{
+    color: #ffffff;
+}
+footer .footer-content .social p{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+footer .footer-content .social .links a{
+    color: #ffffff;
+}
+footer .copyright{
+    text-align: center;
+    color: #ffffff;
+}
+
